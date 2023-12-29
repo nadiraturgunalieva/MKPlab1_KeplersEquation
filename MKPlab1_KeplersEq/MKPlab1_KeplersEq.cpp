@@ -87,6 +87,7 @@ double eccentricAnomalyByIteration(double M, double e) {
 
 int main() {
     setlocale(LC_ALL, "RU");
+
     // Данные для уравнения Кеплера
     double M = 4.87 * pow(10, 24); // Средняя аномалия
     double e = 0.8276646992; // Эксцентриситет
