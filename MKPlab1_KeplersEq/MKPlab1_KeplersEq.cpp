@@ -46,7 +46,7 @@ double eccentricAnomalyByIteration(double M, double e) {
 //}
 
 // Часть 3. Метод золотого сечения
-//    double goldenSectionMethod(double M, double e, double a, double b, double tolerance, int max_iterations) {
+//    double eccentricAnomalyByGoldenSection (double M, double e, double a, double b, double tolerance, int max_iterations) {
 //     const double golden_ratio = (1 + sqrt(5)) / 2;
 //     double E_a = a;
 //     double E_b = b;
@@ -106,5 +106,3 @@ int main() {
 
     return 0;
 }
-
-
